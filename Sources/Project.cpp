@@ -1,17 +1,14 @@
 #include "pch.h"
 
-#include <Kore/IO/FileReader.h>
-#include <Kore/Graphics4/Graphics.h>
-#include <Kore/Graphics4/PipelineState.h>
-#include <Kore/Graphics4/Shader.h>
 #include <Kore/System.h>
+#include <Kore/Graphics3/Graphics.h>
+#include <Kore/Graphics3/Light.h>
+#include <Kore/Graphics3/Texture.h>
+
 
 using namespace Kore;
 
 namespace {
-	Graphics4::Shader* vertexShader;
-	Graphics4::Shader* fragmentShader;
-	Graphics4::PipelineState* pipeline;
 	Graphics4::VertexBuffer* vertices;
 	Graphics4::IndexBuffer* indices;
 
